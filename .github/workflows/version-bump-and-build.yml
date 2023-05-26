@@ -27,8 +27,8 @@ jobs:
         new_version=$(poetry version | awk '{print $2}')
         if [ $old_version != $new_version ]
         then
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "nut3219@github.com"
+          git config --local user.name "nut3219"
           git commit -m "Auto bump version to $new_version" -a
           git push
         fi
