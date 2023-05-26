@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gitworkflowtest"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["nut3219 <wong1904@hotmail.com>"]
 readme = "README.md"
